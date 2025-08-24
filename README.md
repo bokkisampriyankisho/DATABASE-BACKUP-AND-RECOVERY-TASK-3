@@ -1,11 +1,20 @@
 # DATABASE-BACKUP-AND-RECOVERY-TASK-3
 
+  DATABASE MIGRATION SUMMERY REPORT
+
+  INTERNSHIP TASK: Task-3(Database Migration)
+  INTERN:[Bokkisam Priyankisho Reddy]
+  COMPANY:CODTECH IT Solutions
+  DATE:[23-08-2025]
+
+
+
  CREATING AND USING DATABASE :
  
 CREATE DATABASE schooldb;
 USE schooldb;
 
-STEP 1: CREATING AND INSERTING VALUES INTO THE STUDENTS TABLE:
+STEP 1: CREATING TABLE IN MySQL(source):
 
 QUERY:
 
@@ -27,7 +36,7 @@ INSERT INTO students (name, age) VALUES
 | 2 | Sobha  | 22  |
 | 3 | Badri  | 21  |
 
-STEP 2: EXPORTING DATA FROM MYSQL :
+STEP 2: EXPORTING DATA FROM MYSQL (CSV file ):
 
 QUERY:
 
@@ -88,7 +97,6 @@ SELECT * FROM students;
 | 3   | Badri  | 21  |
 
 (3 rows)
-
 
 
 
