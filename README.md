@@ -75,6 +75,18 @@ QUERY:
 | 3  | Badri  | 21   |
 
 
+FINAL CHECK :
+
+QUERY:
+
+SELECT * FROM students;
+
+| id  | name   | age |
+|-----|--------|-----|
+| 1   | Kishor | 20  |
+| 2   | Sobha  | 22  |
+| 3   | Badri  | 21  |
+(3 rows)
 
 
 
