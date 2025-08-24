@@ -86,6 +86,7 @@ SELECT * FROM students;
 | 1   | Kishor | 20  |
 | 2   | Sobha  | 22  |
 | 3   | Badri  | 21  |
+
 (3 rows)
 
 
