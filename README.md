@@ -1,20 +1,22 @@
 # DATABASE-BACKUP-AND-RECOVERY-TASK-3
 
-  DATABASE MIGRATION SUMMERY REPORT
+📑DATABASE MIGRATION SUMMERY REPORT
 
   INTERNSHIP TASK: Task-3(Database Migration)
   INTERN:[Bokkisam Priyankisho Reddy]
   COMPANY:CODTECH IT Solutions
   DATE:[23-08-2025]
 
+🔷OBJECTIVE 
 
+The objective of this task was to migrate data from MySQL to PostgreSQL, ensuring data integrity and verifying that both schema and records were transferred correctly.
 
- CREATING AND USING DATABASE :
+CREATING AND USING DATABASE :
  
 CREATE DATABASE schooldb;
 USE schooldb;
 
-STEP 1: CREATING TABLE IN MySQL(source):
+👉STEP 1: CREATING TABLE IN MySQL(source):
 
 QUERY:
 
@@ -36,7 +38,10 @@ INSERT INTO students (name, age) VALUES
 | 2 | Sobha  | 22  |
 | 3 | Badri  | 21  |
 
-STEP 2: EXPORTING DATA FROM MYSQL (CSV file ):
+
+🔷MIGRATION PROCESS:
+
+👉STEP 2: EXPORTING DATA FROM MYSQL (CSV file ):
 
 QUERY:
 
@@ -52,7 +57,7 @@ LINES TERMINATED BY '\n';
 | 2   | Sobha | 22  |
 | 3   | Badri | 21  |
 
-STEP 3: CREATE TABLE IN POSTGRESQL(EMPTY TARGET TABLE)
+👉STEP 3: CREATE TABLE IN POSTGRESQL(EMPTY TARGET TABLE)
 
 CREATING DATABASE AND TABLE FOR STEP 3 PROCESS:
 
@@ -71,7 +76,7 @@ CREATE TABLE students (
 |----|------|----|
 |    |      |    |
 
-STEP 4 : IMPORT DATA INTO POSTGRESQL(USING\COPY)
+👉STEP 4 : IMPORT DATA INTO POSTGRESQL(USING\COPY)
 
 QUERY:
 
@@ -83,8 +88,9 @@ QUERY:
 | 2  | Sobha  | 22   |
 | 3  | Badri  | 21   |
 
+🔷VERIFICATION 
 
-FINAL CHECK :
+👉FINAL CHECK :
 
 QUERY:
 
